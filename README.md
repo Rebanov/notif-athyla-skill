@@ -13,8 +13,3 @@ Permet de lire les notifications pour athyla
 ## Credits
 Alexis
 
-## Category
-**Information**
-
-## Tags
-
