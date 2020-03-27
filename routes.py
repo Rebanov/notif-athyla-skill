@@ -23,7 +23,7 @@ def notifAthyla():
        #json_string = json.dumps(['notification', {'titre': '{}'.format(entryData)}])
        #json_dict = json.loads(json_string)
        #print(json_string)
-       with open("~/notif_save.json", 'a+', encoding='utf-8') as json_file:
+       with open("/opt/mycroft/skills/notif/notif_save.json", 'a+', encoding='utf-8') as json_file:
          json.dump(notifsave, json_file, indent=4)
 
        #test = open("~/notif_save.txt", 'a+')
